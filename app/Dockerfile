@@ -8,7 +8,7 @@ COPY entrypoint.sh /app/entrypoint.sh
 ENV APP_HOME /app
 
 # 포트 노출
-EXPOSE 80
+EXPOSE 8080
 
 # 볼륨 설정
 VOLUME /app/upload
